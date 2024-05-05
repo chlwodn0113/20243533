@@ -1,0 +1,54 @@
+body {background: #008DDA;}
+h1,h2,h3,h4,h5,h6{background: #41C9E2;}
+/*내비게이션 메뉴*/
+ul{
+    display: inline-block; background: #ACE2E1;
+    position: static; top: 10px; padding: 6px;
+    width: auto; height: auto;}
+a#nav{
+    display: inline-block;
+    position: relative; top: 30; left: 30;
+    color: gray; text-decoration: none;
+    padding: 5px 10px;
+}
+a#nav:hover{display: inline-block; background: #F7EEDD; color: gray;}
+/*박스*/
+#box{
+    display: inline-block;
+    width: auto;
+    
+}
+/*flex 사용*/
+.flex{
+    display: flex;
+    width: auto; 
+}
+.inb{
+    display: inline-block;
+}
+/*시간표*/
+table{
+    background: #41C9E2; color: black;
+    table-layout: fixed; width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+td:hover{
+    background: #ACE2E1; color: red;
+}
+/*드롭다운 활용*/
+li.dropdown{
+    position: relative; display: inline-block;
+}
+.dropdown-content{
+    display: none; position: absolute;
+    background: #ACE2E1; box-shadow: 0px 8px 16px 0px rgba; 
+}
+.dropdown-content a#lia{
+    display: block; padding: 12px 16px;
+    text-decoration: none; text-align: left; color: black;
+}
+.dropdown-content a#lia:hover{
+    background: lavender;
+}
+.dropdown:hover .dropdown-content{display: block;}
